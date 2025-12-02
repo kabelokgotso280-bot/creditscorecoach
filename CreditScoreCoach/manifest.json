@@ -1,0 +1,20 @@
+{
+  "name": "CreditScore Coach",
+  "short_name": "CSC",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0a2351",
+  "theme_color": "#0a2351",
+  "icons": [
+    {
+      "src": "logo-placeholder.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-placeholder.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

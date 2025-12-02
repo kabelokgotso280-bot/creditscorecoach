@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credit Score Coach</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+  <img src="assets/logo.png" class="logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="ebooks.html">eBooks</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Your Path to Better Credit Starts Here</h1>
+  <p>Instant AI-powered credit advice, real tips, and trusted links.</p>
+
+  <input id="userQuestion" placeholder="Ask any credit question…">
+  <button onclick="askAI()">Ask AI Coach</button>
+
+  <p id="aiResponse"></p>
+</section>
+
+<!-- CREDIT IMPROVEMENT TIPS -->
+<section class="page">
+  <h2>How to Improve Your Credit Score</h2>
+
+  <div class="tip" onclick="toggleTip(this)">
+    <h3>1. Pay All Your Accounts On Time</h3>
+    <p class="content">Your payment history makes up 35% of your credit score. Set reminders, debit orders, or early payments.</p>
+  </div>
+
+  <div class="tip" onclick="toggleTip(this)">
+    <h3>2. Keep Credit Usage Below 30%</h3>
+    <p class="content">If your credit limit is R10 000, try not to use more than R3 000. High usage lowers your score.</p>
+  </div>
+
+  <div class="tip" onclick="toggleTip(this)">
+    <h3>3. Avoid Too Many Credit Applications</h3>
+    <p class="content">Each application triggers a “hard inquiry” which drops your score. Only apply when necessary.</p>
+  </div>
+
+  <div class="tip" onclick="toggleTip(this)">
+    <h3>4. Keep Old Accounts Open</h3>
+    <p class="content">Older accounts increase your credit age, boosting your score over time.</p>
+  </div>
+
+  <div class="tip" onclick="toggleTip(this)">
+    <h3>5. Check Your Credit Report Regularly</h3>
+    <p class="content">Dispute errors, incorrect listings, or fraudulent accounts. Fixing them raises your score fast.</p>
+  </div>
+
+  <div class="tip" onclick="toggleTip(this)">
+    <h3>6. Reduce Your Debt Gradually</h3>
+    <p class="content">Pay down store accounts, personal loans, and credit cards. Even small payments help.</p>
+  </div>
+
+</section>
+
+<!-- TRUSTED LINKS -->
+<section class="resources">
+  <h2>Trusted Credit Resources</h2>
+  <ul>
+    <li><a href="https://www.experian.co.za/" target="_blank">Experian – Check Your Score</a></li>
+    <li><a href="https://www.transunion.co.za/" target="_blank">TransUnion – Credit Report</a></li>
+    <li><a href="https://www.clearScore.com/za" target="_blank">ClearScore – Free Credit Reports</a></li>
+    <li><a href="https://www.resbank.co.za/" target="_blank">SARB – Registered Loan Providers</a></li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2024 Credit Score Coach</p>
+</footer>
+
+</body>
+</html>
