@@ -1,2 +1,0 @@
-# Example redirect if you ever need it
-# /old-page   /new-page   301
