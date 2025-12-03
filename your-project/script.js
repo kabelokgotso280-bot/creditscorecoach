@@ -1,0 +1,1 @@
+console.log("CreditScoreCoach website loaded successfully.");
